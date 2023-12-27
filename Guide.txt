@@ -1,0 +1,14 @@
+Installing Cobra : 
+
+go get -u github.com/spf13/cobra@latest
+import "github.com/spf13/cobra"
+
+
+cmd: 
+Usage (cobra-cli) (cobra generator) : go install github.com/spf13/cobra-cli@latest
+
+vscode -terminal : 
+
+1) go mod init query
+2) go get -u github.com/spf13/cobra@latest
+3) From within a Go module run `cobra-cli init`. This will create a new barebones project to edit.
